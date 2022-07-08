@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./links-and-media/font/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./links-and-media/font/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./links-and-media/font/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.hero, footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 0% 10% 0% 10%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    border: #1f2937 1px solid;
+}
+
+.logo {
+    flex: 1;
+    border: #1f2937 1px solid;
+}
+
+.logo img {
+    width: 125px;
+    margin: 18px 0 18px 0;
+}
+
+.headerLink {
+    display: flex;
+    margin: 18px 0 18px 0;
+    flex: 0.7;
+    justify-content: space-between;
+}
+
+.headerLink a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main {
+    display: flex;
+    padding: 80px 0 80px;
+}
+
+h1 {
+    margin: auto;
+}
+
+.textMain {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.imageMain {
+    flex: 1;
+}
+
+.characterMain {
+    flex: 1;
+    align-items: center;
+}
+
+.soundtrackMain {
+    flex: 1;
+    align-items: center;
+}
+
+.imageMain img {
+    width: 80%;
+    height: auto;
+}
+
+.characterMain img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 21px;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 30px 5px 30px;
+}
+
+.second {
+    padding: 0% 10% 0% 10%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.second div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second figure {
+    margin: 0;
+    text-align: center;
+    width: 160px;
+    margin-bottom: 80px;
+}
+
+.second img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px #3882F6 solid;
+    border-radius: 5px;
+}
+
+.characters {
+    display: block;
+    padding: 0 15% 0 15%;
+    font-size: 24px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile p {
+    margin: 16px;
+    
+}
+
+.Guardians img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px #3882F6 solid;
+    border-radius: 5px;
+}
+
+.soundtrack {
+    display: block;
+    padding: 0 15% 0 15%;
+}
+
+.tracks {
+    display: flex;
+}
+
+.tracks p {
+    flex: 1.5;
+    font-size: 18px;
+}
+
+.tracks figure {
+    flex: 1;
+    display: flex;
+}
+
+.tracks img {
+    width: 400px;
+    object-fit: cover;
+    border: 2px #3882F6 solid;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.third {
+    background-color: #e5e7eb;
+    padding: 10% 15% 10% 15%;
+}
+
+.thirdCharacters {
+    background-color: #e5e7eb;
+    padding: 5% 15% 5% 15%;
+}
+
+.thirdCharacters img {
+    width: 100%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    margin: 0;
+}
+
+.quoteCharacters {
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    margin: 0;
+}
+
+.signature {
+    font-size: 24px;
+    text-align: right;
+    margin: 0;
+}
+
+.forth {
+    padding: 10% 10% 10% 10%;
+}
+
+.blueSquare {
+    background-color: #3882F6;
+    display: flex;
+    color: #e5e7eb;
+    margin: 0;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.blueSquare h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.blueSquare p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.text {
+    margin: 30px 0 30px 0;
+}
+
+.button {
+    margin: auto;
+}
+
+.forth button {
+    border: #e5e7eb 2px solid;
+}
+
+table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border: #b1b1b1 2px solid;
+}
+td {
+    padding: 3px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b1b1b1;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+}
+
+footer div p {
+    margin: 32px;
+}
