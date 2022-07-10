@@ -39,7 +39,7 @@ h1 {
     font-weight: normal;
 }
 
-header {
+nav {
     display: flex;
     border: #1f2937 1px solid;
 }
@@ -230,6 +230,10 @@ h2 {
     font-size: 24px;
     text-align: right;
     margin: 0;
+}
+
+cite {
+    font-style: normal;
 }
 
 .forth {
